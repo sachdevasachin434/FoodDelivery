@@ -3,11 +3,13 @@ package fooddelivery;
 public class Controller{
 
     // Read APIs
-    public List<FoodItem> foodItemSearcher(String searchItem, List<Filters> filters){}
+    public List<FoodItem> foodItemSearcher(String searchItem, List<Filters> filters){
+
+    }
 
     public List<Restraunt> searchByRestraunt(String searchItem, List<Filters> filters){}
 
-    public Restraunt getRestrauntById(String restrauntId){}
+    public Restraunt getRestrau`ntById(String restrauntId){}
 
     public FoodItem getFoodItemById(String foodItemId){}
 
