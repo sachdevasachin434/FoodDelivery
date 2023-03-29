@@ -1,6 +1,7 @@
 package fooddelivery.filter;
 
 import fooddelivery.data.FoodItem;
+import fooddelivery.filter.FoodItemFilter;
 import fooddelivery.data.MealType;
 
 public class MealTypeFilter implements FoodItemFilter {

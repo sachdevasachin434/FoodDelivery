@@ -1,10 +1,10 @@
-package fooddelivery;
+package fooddelivery.searcher;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import fooddelivery.data.FoodItem;
-import fooddelivery.data.FoodItemFilter;
+import fooddelivery.filter.FoodItemFilter;
 
 public class FoodItemSearcher {
     public List<FoodItem> foodItemSearcher(String foodItemName, List<FoodItemFilter> filters){
